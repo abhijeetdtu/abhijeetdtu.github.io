@@ -1,0 +1,51 @@
+<html>
+
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/frappe-gantt/0.5.0/frappe-gantt.min.js" integrity="sha512-5M8ejeX3DuiV4VGIFjHP5gpryPQb1dWYjzTUhBUKj81aT6ZZz6+wIG8k89nbjsiHFJHQbi/CByHQTe4mJOi3hw==" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue-resource@1.5.1"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/frappe-gantt/0.5.0/frappe-gantt.css" integrity="sha512-qxE5FnEACGZSuLsbaDLCYuMRrxuLhQz1HtOJ2+3dHXSnFlckToa1rXHajkgLciNSdq+FCE4ey8R8fqjrD3HO0g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./static/css/main.css" >
+</head>
+
+<body>
+  <div class="container">
+    <div id="app">
+      <div class="row">
+        <div class="col-md-5">
+          <h1>{{ NAME }}</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <nav class="nav flex-column">
+            <p class="nav-link active">
+                <router-link to="/timeline">Overview</router-link>
+            </p>
+            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </nav>
+        </div>
+
+        <div class="col-md-10">
+          <router-view></router-view>
+          <!-- <router-view></router-view> -->
+        </div>
+      </div>
+
+
+      </div>
+    </div>
+  </div>
+</body>
+<script src="./static/js/data.js"></script>
+<script src="./static/js/mixins.js"></script>
+<script src="./static/js/card.js"></script>
+<script src="./static/js/timeline.js"></script>
+<script src="./static/js/app.js"></script>
+
+</html>
