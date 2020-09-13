@@ -171,15 +171,15 @@ var projects = [{
       group: 1
     },
     {
-        text: 'R^2 (for F1 frequeny) - 0.72',
-        type: 'h6',
-        group: 1
-      },
-      {
-          text: 'R^2 (for F2 frequeny) - 0.8',
-          type: 'h6',
-          group: 1
-        },
+      text: 'R^2 (for F1 frequeny) - 0.72',
+      type: 'h6',
+      group: 1
+    },
+    {
+      text: 'R^2 (for F2 frequeny) - 0.8',
+      type: 'h6',
+      group: 1
+    },
     {
       text: 'Analyze speech and socio-economic data',
       type: 'h7',
@@ -229,14 +229,76 @@ var projects = [{
   title: 'Misinformation Analysis',
   institute: 'Personal Project',
   start: 'Ongoing',
-  end : '',
+  end: '',
   img: 'static/img/indianmedia_short.gif',
-  link : 'http://indianmedia.herokuapp.com/',
+  link: 'http://indianmedia.herokuapp.com/',
   highlights: [{
-      text: 'Quantifying media outlet similarities',
+    text: 'Quantifying media outlet similarities',
+    type: 'h7',
+    group: 1
+  }, ]
+}, {
+  title: 'Religious Books Exploration',
+  institute: 'Personal Project',
+  start: '2020-03',
+  end: '2020-05',
+  img: 'static/img/architecture_svg.svg',
+  link: 'https://github.com/abhijeetdtu/dsba6155project',
+  highlights: [{
+      text: 'Leverage text analytics/ word vectors to search for similar ideas in different books',
+      type: 'h6',
+      group: 1
+    },
+    {
+      text: 'Google Cloud Technologies',
+      type: 'h7',
+      group: 2
+    },
+    {
+      text: 'Functions',
+      type: 'h7',
+      group: 3
+    },
+    {
+      text: 'Cloud Storage',
+      type: 'h7',
+      group: 3
+    }, {
+      text: 'Big Query',
+      type: 'h7',
+      group: 3
+    }, {
+      text: 'Data Studio',
+      type: 'h7',
+      group: 3
+    },
+    {
+      text: 'Data Lab',
+      type: 'h7',
+      group: 3
+    }, {
+      text: 'App Engine',
+      type: 'h7',
+      group: 3
+    },
+  ]
+}, {
+  title: 'Movie Theme Exploration',
+  institute: 'Personal Project',
+  start: '2019-10',
+  end: '2019-12',
+  img: 'static/img/sharedwatch.gif',
+  link: 'https://sharedwatch.herokuapp.com/',
+  highlights: [{
+      text: 'Leverage text analytics/ word vectors to explore movies themes and find similar movies',
       type: 'h7',
       group: 1
     },
+    {
+        text: 'Python/ Scikit-learn / Spacy / pymagnitude',
+        type: 'h7',
+        group: 2
+      },
   ]
 }
 ]

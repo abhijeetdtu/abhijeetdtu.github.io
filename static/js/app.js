@@ -1,21 +1,18 @@
 
-var router = new VueRouter({
+var router2 = new VueRouter({
   routes : [
     {path : "/timeline" , component : timelineComp , props: { events : events}},
-    { path: '*', redirect: '/timeline'},
     {path : "/projects" , component : timelineComp , props: { events : projects}},
+    { path: '*', redirect: '/timeline'}
   ]
 })
 
 
 var app = new Vue({
   el: '#app',
-  router : router,
+  router : router2,
   data: {
     message: 'Hello Vue!'
     , NAME : "Abhijeet Pokhriyal"
-  },
-  methods:{
-
   }
 })

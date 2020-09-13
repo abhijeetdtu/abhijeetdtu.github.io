@@ -6,10 +6,25 @@ var timelineComp = Vue.component('timeline', {
       domid: 'timeline'
     }
   },
+  methods:{
+    eventgroups: function(){
+      eventgroups = []
+      g = []
+      for(var i = 0 ; i < this.events.length ; i++){
+        if((i % 4 == 0) & (i > 0)){
+          eventgroups.push(g)
+          g = []
+        }
+          g.push(this.events[i])
+      }
+      eventgroups.push(g)
+      return eventgroups
+    }
+  },
   template: `
   <div class="row">
-    <div class="card-group shadow-lg p-3 mb-5 bg-white rounded">
-      <card v-for="event in events"
+    <div class="card-group shadow-lg p-3 mb-5 bg-white rounded" v-for="(eg,index) in eventgroups()" v-bind:key="index">
+      <card v-for="(event,index_2) in eg" v-bind:key="index_2"
           v-bind:title="event.title"
           v-bind:institute="event.institute"
           v-bind:text="event.start + ' - ' + event.end"
@@ -17,6 +32,7 @@ var timelineComp = Vue.component('timeline', {
           v-bind:link="event.link"
           v-bind:highlights="event.highlights"></card>
 
+    </div>
     </div>
   </div>
   `
