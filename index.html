@@ -14,23 +14,23 @@
 <body>
   <div class="container">
     <div id="app">
-      <div class="row">
-        <div class="col-md-5">
-          <h1>{{ NAME }}</h1>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-2">
-          <nav class="nav flex-column">
-            <p class="nav-link active">
+      <div class="row justify-content-md-center">
+        <div class="col-md-8">
+          <nav class="nav">
+            <a class="navbar-brand" href="#">
+              <img src="./static/img/logo.png" width="60" height="30" alt="">
+            </a>
+            <p class="nav-link">
                 <router-link to="/timeline">Overview</router-link>
+                <router-link to="/projects">Projects</router-link>
             </p>
             <a class="nav-link" href="#">Link</a>
             <a class="nav-link" href="#">Link</a>
             <a class="nav-link disabled" href="#">Disabled</a>
           </nav>
         </div>
-
+      </div>
+      <div class="row justify-content-md-center">
         <div class="col-md-10">
           <router-view></router-view>
           <!-- <router-view></router-view> -->

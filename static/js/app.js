@@ -2,7 +2,8 @@
 var router = new VueRouter({
   routes : [
     {path : "/timeline" , component : timelineComp , props: { events : events}},
-    { path: '*', redirect: '/timeline'}
+    { path: '*', redirect: '/timeline'},
+    {path : "/projects" , component : timelineComp , props: { events : projects}},
   ]
 })
 

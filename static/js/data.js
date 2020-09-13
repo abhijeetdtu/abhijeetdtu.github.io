@@ -1,11 +1,11 @@
 var events = [{
-  title: 'Bachelors in Computer Engineering',
-  institute: 'Delhi College of Engineering',
+  title: 'B.Tech Computer Engineering',
+  institute: 'DTU (DCE)',
   start: '2011',
   end: '2015',
   img: 'static/img/dtu.png',
   highlights: [{
-      text: 'Scored 79.89 % overall',
+      text: '79.89 %',
       type: 'h5',
       group: 1
     },
@@ -57,9 +57,9 @@ var events = [{
       group: 1
     },
     {
-      text: 'Reusable and extensible visualization system (D3/Kendo)',
+      text: 'Reusable and extensible visualization system (MVC/C#/D3/Kendo)',
       type: 'h6',
-      group: 1
+      group: 2
     },
     {
       text: 'Pre-caching the dashboards - Markov Models',
@@ -157,3 +157,86 @@ var events = [{
     },
   ]
 }]
+
+
+var projects = [{
+  title: 'Accent leveling and the urban-rural distinction',
+  institute: 'with Dr Rebecca Roeder',
+  start: '2019',
+  end: 'ongoing',
+  img: 'static/img/Rlogo.png',
+  highlights: [{
+      text: 'Analysis of Variance using Linear and Mixed Effects Models',
+      type: 'h5',
+      group: 1
+    },
+    {
+        text: 'R^2 (for F1 frequeny) - 0.72',
+        type: 'h6',
+        group: 1
+      },
+      {
+          text: 'R^2 (for F2 frequeny) - 0.8',
+          type: 'h6',
+          group: 1
+        },
+    {
+      text: 'Analyze speech and socio-economic data',
+      type: 'h7',
+      group: 2
+    },
+    {
+      text: 'R / Python / FAVE Extract / Praat / Docker',
+      type: 'h7',
+      group: 3
+    }
+
+  ]
+}, {
+  title: 'Cost Prediction for Work Orders',
+  institute: 'Frontdoor Inc',
+  start: '2020/07',
+  end: '2020/09',
+  img: 'static/img/frontdoor.png',
+  highlights: [{
+      text: 'R^2 - 0.89',
+      type: 'h5',
+      group: 1
+    },
+    {
+      text: 'RMSE ~$40',
+      type: 'h5',
+      group: 1
+    },
+    {
+      text: 'Reduce call center volume',
+      type: 'h5',
+      group: 2
+    },
+    {
+      text: 'Automatically approving certain transactions',
+      type: 'h6',
+      group: 2
+    },
+    {
+      text: 'Python / Scikit-learn / Shapley / Pandas',
+      type: 'h7',
+      group: 3
+    }
+
+  ]
+}, {
+  title: 'Misinformation Analysis',
+  institute: 'Personal Project',
+  start: 'Ongoing',
+  end : '',
+  img: 'static/img/indianmedia_short.gif',
+  link : 'http://indianmedia.herokuapp.com/',
+  highlights: [{
+      text: 'Quantifying media outlet similarities',
+      type: 'h7',
+      group: 1
+    },
+  ]
+}
+]
