@@ -8,16 +8,16 @@
 }
 
 .card-body{
-  background-color: #86bbd8;
-  color:white;
+  background-color: white;
+  color:#343a40;
 }
 .card-body-custom{
-  background-color: #86bbd8;
-  color:white;
+  background-color: white;
+  color:#343a40;
   text-align: center;
 }
 .card-heading{
- background-color: #33658a;
+ background-color: white;
  font-size: 1.25em;
 }
 
@@ -65,4 +65,8 @@ body{
   overflow: auto;
   background-color: rgb(0,0,0);
   background-color: rgba(0,0,0,0.4);
+}
+
+.selected-notebook{
+  border: 2px #2a9d8f8f dashed;
 }

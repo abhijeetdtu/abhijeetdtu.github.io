@@ -302,3 +302,8 @@ var projects = [{
   ]
 }
 ]
+
+
+var jupyter_notebooks = [
+  {"title" : "Convolution" , "link":"./jupyter_notebooks/Understanding kernels.html"}
+]
