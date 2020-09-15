@@ -68,5 +68,9 @@ body{
 }
 
 .selected-notebook{
-  border: 2px #2a9d8f8f dashed;
+  font-weight:bolder;
+}
+
+.li-jupyter{
+ border-bottom : 2px #2a9d8f8f dashed;
 }
