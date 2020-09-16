@@ -306,6 +306,7 @@ var projects = [{
 
 var jupyter_notebooks = [
   {"type":"local" , "title" : "Convolution" , "link":"./jupyter_notebooks/Understanding kernels.html"},
+  {"type":"binder" , "title" : "Fourier Transform" , "link":"https://abhijeetdtu.github.io/computervision/Fourier%20Transform.html"},
   {"type":"embedly" , "title": "Text Analysis of Indian Media" , "link":"https://medium.com/analytics-vidhya/text-analysis-of-indian-media-d752de376099"},
   {"type":"embedly" , "title": "Predicting Media Bias" , "link":"https://medium.com/analytics-vidhya/mlforsocial-predicting-media-bias-8e94d03befb5"},
   {"type":"embedly" , "title": "Text Analytics in Cloud Part 1" , "link":"https://medium.com/analytics-vidhya/text-analytics-in-cloud-part-1-e0467d5034d"},

@@ -4,6 +4,7 @@ var router2 = new VueRouter({
     {path : "/timeline" , component : timelineComp , props: { events : events}},
     {path : "/projects" , component : timelineComp , props: { events : projects}},
     {path : "/jupyter" , component : jupyterComp , props: { notebooks : jupyter_notebooks}},
+    {path : "/binder" , component : binderComp },
     { path: '*', redirect: '/jupyter'}
   ]
 })
@@ -15,5 +16,6 @@ var app = new Vue({
   data: {
     message: 'Hello Vue!'
     , NAME : "Abhijeet Pokhriyal"
+    , BINDER_URL : "https://mybinder.org/v2/gh/abhijeetdtu/computervision/master"
   }
 })
