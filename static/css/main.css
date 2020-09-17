@@ -95,3 +95,10 @@ body{
 ::-webkit-scrollbar-thumb:hover {
   background: #f4a261;
 }
+
+.oes{
+  position:absolute;
+  opacity: 0.01;
+  height: 10px;
+  overflow: scroll;
+}
