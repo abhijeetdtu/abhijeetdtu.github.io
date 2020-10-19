@@ -2,7 +2,7 @@ var mixin = {
   data : function(){
     return {
       COLORS : ['#00429d', '#2e59a8', '#4771b2', '#5d8abd', '#73a2c6', '#8abccf', '#a5d5d8', '#c5eddf', '#ffffe0'],
-      CAT_COLORS : ['#264653ff', '#f6ae2d', '#f26419', '#fac05e', '#bd632f']
+      CAT_COLORS : ['#ffa69e', '#faf3dd', '#aed9e0', '#b8f2e6', '#d8e2dc']
 
     }
   }

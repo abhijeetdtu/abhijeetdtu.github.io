@@ -8,10 +8,11 @@ var timelineComp = Vue.component('timeline', {
   },
   methods:{
     eventgroups: function(){
+      group_size = 3
       eventgroups = []
       g = []
       for(var i = 0 ; i < this.events.length ; i++){
-        if((i % 4 == 0) & (i > 0)){
+        if((i % group_size == 0) & (i > 0)){
           eventgroups.push(g)
           g = []
         }

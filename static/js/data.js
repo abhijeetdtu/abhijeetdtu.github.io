@@ -160,72 +160,6 @@ var events = [{
 
 
 var projects = [{
-  title: 'Accent leveling and the urban-rural distinction',
-  institute: 'with Dr Rebecca Roeder',
-  start: '2019',
-  end: 'ongoing',
-  img: 'static/img/Rlogo.png',
-  highlights: [{
-      text: 'Analysis of Variance using Linear and Mixed Effects Models',
-      type: 'h5',
-      group: 1
-    },
-    {
-      text: 'R^2 (for F1 frequeny) - 0.72',
-      type: 'h6',
-      group: 1
-    },
-    {
-      text: 'R^2 (for F2 frequeny) - 0.8',
-      type: 'h6',
-      group: 1
-    },
-    {
-      text: 'Analyze speech and socio-economic data',
-      type: 'h7',
-      group: 2
-    },
-    {
-      text: 'R / Python / FAVE Extract / Praat / Docker',
-      type: 'h7',
-      group: 3
-    }
-
-  ]
-}, {
-  title: 'Cost Prediction for Work Orders',
-  institute: 'Frontdoor Inc',
-  start: '2020/07',
-  end: '2020/09',
-  img: 'static/img/frontdoor.png',
-  highlights: [{
-      text: 'R^2 - 0.89',
-      type: 'h5',
-      group: 1
-    },
-    {
-      text: 'RMSE ~$40',
-      type: 'h5',
-      group: 1
-    },
-    {
-      text: 'Reduce call center volume',
-      type: 'h5',
-      group: 2
-    },
-    {
-      text: 'Automatically approving certain transactions',
-      type: 'h6',
-      group: 2
-    },
-    {
-      text: 'Python / Scikit-learn / Shapley / Pandas',
-      type: 'h7',
-      group: 3
-    }
-
-  ]
-}, {
   title: 'Misinformation Analysis',
   institute: 'Personal Project',
   start: 'Ongoing',
@@ -246,7 +180,7 @@ var projects = [{
   link: 'https://github.com/abhijeetdtu/dsba6155project',
   highlights: [{
       text: 'Leverage text analytics/ word vectors to search for similar ideas in different books',
-      type: 'h6',
+      type: 'h7',
       group: 1
     },
     {
@@ -300,6 +234,72 @@ var projects = [{
         group: 2
       },
   ]
+},{
+  title: 'Accent leveling and the urban-rural distinction',
+  institute: 'with Dr Rebecca Roeder',
+  start: '2019',
+  end: 'ongoing',
+  img: 'static/img/Rlogo.png',
+  highlights: [{
+      text: 'Analysis of Variance using Linear and Mixed Effects Models',
+      type: 'h7',
+      group: 1
+    },
+    {
+      text: 'R^2 (for F1 frequeny) - 0.72',
+      type: 'h7',
+      group: 1
+    },
+    {
+      text: 'R^2 (for F2 frequeny) - 0.8',
+      type: 'h7',
+      group: 1
+    },
+    {
+      text: 'Analyze speech and socio-economic data',
+      type: 'h7',
+      group: 2
+    },
+    {
+      text: 'R / Python / FAVE Extract / Praat / Docker',
+      type: 'h7',
+      group: 3
+    }
+
+  ]
+}, {
+  title: 'Cost Prediction for Work Orders',
+  institute: 'Frontdoor Inc',
+  start: '2020/07',
+  end: '2020/09',
+  img: 'static/img/frontdoor.png',
+  highlights: [{
+      text: 'R^2 - 0.89',
+      type: 'h7',
+      group: 1
+    },
+    {
+      text: 'RMSE ~$40',
+      type: 'h7',
+      group: 1
+    },
+    {
+      text: 'Reduce call center volume',
+      type: 'h7',
+      group: 2
+    },
+    {
+      text: 'Automatically approving certain transactions',
+      type: 'h7',
+      group: 2
+    },
+    {
+      text: 'Python / Scikit-learn / Shapley / Pandas',
+      type: 'h7',
+      group: 3
+    }
+
+  ]
 }
 ]
 
@@ -307,13 +307,11 @@ var projects = [{
 var jupyter_notebooks = [
   {"type":"local" , "title" : "Convolution" , "link":"./jupyter_notebooks/Understanding kernels.html"},
   {"type":"binder" , "title" : "Fourier Transform" , "link":"https://abhijeetdtu.github.io/computervision/Fourier%20Transform.html"},
+  {"type":"binder" , "title" : "Gaussian Filters" , "link":"https://abhijeetdtu.github.io/computervision/Gaussian%20Filters.html"},
   {"type":"embedly" , "title": "Text Analysis of Indian Media" , "link":"https://medium.com/analytics-vidhya/text-analysis-of-indian-media-d752de376099"},
   {"type":"embedly" , "title": "Predicting Media Bias" , "link":"https://medium.com/analytics-vidhya/mlforsocial-predicting-media-bias-8e94d03befb5"},
   {"type":"embedly" , "title": "Text Analytics in Cloud Part 1" , "link":"https://medium.com/analytics-vidhya/text-analytics-in-cloud-part-1-e0467d5034d"},
   {"type":"embedly" , "title": "Feature Engineering Experiment- Weighted KNN" , "link":"https://medium.com/analytics-vidhya/feature-engineering-experiment-weighted-knn-3f28dfdf30e1"},
   {"type":"embedly" , "title": "Productionlize your Machine Learning (Python) Application" , "link":"https://medium.com/analytics-vidhya/productionlize-your-machine-learning-python-application-e1989dd82f24"},
-
-
-
 
 ]

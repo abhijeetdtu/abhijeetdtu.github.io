@@ -7,7 +7,7 @@ Vue.component('highlight', {
     }
   },
   template:`
-    <li class="list-group-item py-0" v-bind:class="type" v-bind:style="{backgroundColor:get_color() , color:'#f4f1de'}">
+    <li class="list-group-item py-0" v-bind:class="type" v-bind:style="{backgroundColor:get_color()}">
       {{text}}
     </li>
   `
@@ -55,9 +55,9 @@ Vue.component('card', {
                           v-bind:type="highlight.type"
                           v-bind:group='highlight.group' v-if="show_details.show | (!show_details.show & highlight.group < 2)"></highlight>
             </ul>
-            <div class="card-body d-flex flex-column">
-              <a v-bind:href="link" target="_blank" v-if="link" class="btn btn-secondary" role="button" aria-disabled="true">Project Site</a>
-              <button class="card-btn btn btn-primary mt-auto" v-on:click="toggle_details">{{ show_details.display_text}}</button>
+            <div class="card-body  d-flex flex-column">
+                <a v-bind:href="link" target="_blank" v-if="link" class="btn btn-secondary" role="button" aria-disabled="true">Project Site</a>
+                <button class="card-btn btn btn-light mt-auto" v-on:click="toggle_details">{{ show_details.display_text}}</button>
 
             </div>
           </div>
