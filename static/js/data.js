@@ -306,6 +306,7 @@ var projects = [{
 
 var jupyter_notebooks = [
   {"type":"local" , "title" : "Convolution" , "link":"./jupyter_notebooks/Understanding kernels.html"},
+  {"type":"local" , "title" : "MultiTask Model" , "link":"./jupyter_notebooks/multi_task_model.html"},
   {"type":"binder" , "title" : "Fourier Transform" , "link":"https://abhijeetdtu.github.io/computervision/Fourier%20Transform.html"},
   {"type":"binder" , "title" : "Gaussian Filters" , "link":"https://abhijeetdtu.github.io/computervision/Gaussian%20Filters.html"},
   {"type":"embedly" , "title": "Text Analysis of Indian Media" , "link":"https://medium.com/analytics-vidhya/text-analysis-of-indian-media-d752de376099"},
