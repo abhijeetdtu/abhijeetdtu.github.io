@@ -7,7 +7,7 @@ Vue.component('highlight', {
     }
   },
   template:`
-    <li class="list-group-item py-0" v-bind:class="type" v-bind:style="{backgroundColor:get_color()}">
+    <li class="list-group-item py-0" v-bind:class="type" > <!-- v-bind:style="{backgroundColor:get_color()}" -->
       {{text}}
     </li>
   `

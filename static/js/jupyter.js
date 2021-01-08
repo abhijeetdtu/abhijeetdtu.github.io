@@ -35,9 +35,7 @@ var jupyterComp = Vue.component('jupyter', {
               <div class="row" v-if="selected">
                   <div v-if=" ['local', 'binder'].includes(selected.type) "  class="embed-responsive embed-responsive-1by1">
                       <iframe class="embed-responsive-item" v-bind:src="selected.link"></iframe>
-
                   </div>
-
                   <div v-if="selected.type == 'embedly'"  >
                       <a data-card-controls="0" class="embedly-card"  v-bind:href="selected.link">
                         {{selected.title}}

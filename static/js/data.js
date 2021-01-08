@@ -58,22 +58,22 @@ var events = [{
     },
     {
       text: 'Reusable and extensible visualization system (MVC/C#/D3/Kendo)',
-      type: 'h6',
+      type: 'h7',
       group: 2
     },
     {
       text: 'Pre-caching the dashboards - Markov Models',
-      type: 'h6',
+      type: 'h7',
       group: 2
     },
     {
       text: 'Scenario Planning for care locations - ArcGIS',
-      type: 'h6',
+      type: 'h7',
       group: 3
     },
     {
       text: 'Microsoft Azure migration - (python/terraform/jenkins)',
-      type: 'h6',
+      type: 'h7',
       group: 4
     },
   ]
@@ -160,6 +160,55 @@ var events = [{
 
 
 var projects = [{
+  title: 'Predicting Economic Activity From Satellite Images',
+  institute: 'Academic Project',
+  start: 'Aug 2020',
+  end: 'Dec 2020',
+  img: 'https://github.com/abhijeetdtu/dsba4152/raw/master/web/static/siteimg/overall_working.gif',
+  link: 'https://github.com/abhijeetdtu/dsba4152',
+  highlights: [{
+    text: 'Predicted GDP using Nightlight Satellite Images',
+    type: 'h7',
+    group: 1
+  },{
+    text: 'RMSE $180 Billion on Test Set (10% of Mean GDP in dataset)',
+    type: 'h8',
+    group: 2
+  }, {
+    text: 'Multi-Data Model using Images and Image meta data (numerical data)',
+    type: 'h8',
+    group: 3
+  } ,{
+    text: 'FastAi / Keras / Python / Flask',
+    type: 'h8',
+    group: 3
+  } ]
+},{
+  title: 'Visual Analytics - Hotel Cancellations',
+  institute: 'Academic Project',
+  start: 'Aug 2020',
+  end: 'Dec 2020',
+  img: 'https://camo.githubusercontent.com/87a3abe0321ad1e6873b0916088367b505806003c4ee1e306731e4badf4826c9/68747470733a2f2f692e696d6775722e636f6d2f6c504b385577692e676966',
+  link: 'https://abhijeetdtu.shinyapps.io/dsba5122/',
+  highlights: [{
+    text: 'Built R Shiny App',
+    type: 'h7',
+    group: 1
+  },{
+    text: 'Identify reasons for cancellations',
+    type: 'h8',
+    group: 2
+  } ,{
+    text: 'Explore how to increase the Average Daily Rates, thereby increasing the overall revenue for the hotel.',
+    type: 'h8',
+    group: 2
+  },{
+    text: 'Github Url: https://github.com/abhijeetdtu/dsba5122',
+    type: 'h8',
+    group: 3
+  } ]
+},
+{
   title: 'Misinformation Analysis',
   institute: 'Personal Project',
   start: 'Ongoing',
@@ -184,8 +233,8 @@ var projects = [{
       group: 1
     },
     {
-      text: 'Google Cloud Technologies',
-      type: 'h7',
+      text: 'Google Cloud Technologies:',
+      type: 'h6',
       group: 2
     },
     {
