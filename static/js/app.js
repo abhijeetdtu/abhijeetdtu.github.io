@@ -17,5 +17,6 @@ var app = new Vue({
     message: 'Hello Vue!'
     , NAME : "Abhijeet Pokhriyal"
     , BINDER_URL : "https://mybinder.org/v2/gh/abhijeetdtu/computervision/master"
+    , GITHUB_URL : "https://github.com/abhijeetdtu"
   }
 })

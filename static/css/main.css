@@ -28,6 +28,10 @@
   border-right-width: 10px;
 }
 
+/* .card:not(:hover){
+  opacity: 0.2;
+} */
+
 .bright-hr{
   border-color: : #e5989b;
   background-color: #e5989b;
@@ -102,4 +106,8 @@ body{
   opacity: 0.01;
   height: 10px;
   overflow: scroll;
+}
+
+.btn-jupyter:hover {
+    background: #e5e5e5;
 }
