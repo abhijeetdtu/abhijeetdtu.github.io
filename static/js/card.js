@@ -43,18 +43,7 @@ Vue.component('card', {
                       </div>
                       <p class="card-text">{{institute}} <br/> {{text}}</p>
                     </div>
-                    <ul class="list-group list-group-flush">
-                      <highlight v-for="(highlight , idx) in highlights"
-                                 v-bind:key="idx"
-                                 v-bind:text="highlight.text"
-                                  v-bind:type="highlight.type"
-                                  v-bind:group='highlight.group' v-if="show_details.show | (!show_details.show & highlight.group < 2)"></highlight>
-                    </ul>
-                    <div class="card-body  d-flex flex-column">
-                        <a v-bind:href="link" target="_blank" v-if="link" class="btn btn-secondary btn-light" role="button" aria-disabled="true">Project Site</a>
-                        <button class="card-btn btn btn-light mt-auto" v-on:click="toggle_details">{{ show_details.display_text}}</button>
-
-                    </div>
+                   
                 </div>
 
                 <div class="col-md-8">
@@ -68,6 +57,26 @@ Vue.component('card', {
 
             </div>
 
+            <div class="row">
+              <div class="col">
+              <div class="row">
+                <ul class="list-group list-group-flush">
+                <highlight v-for="(highlight , idx) in highlights"
+                          v-bind:key="idx"
+                          v-bind:text="highlight.text"
+                            v-bind:type="highlight.type"
+                            v-bind:group='highlight.group' v-if="show_details.show | (!show_details.show & highlight.group < 2)"></highlight>
+              </ul>
+              </div>
+              <div class="row">
+              <div class="card-body  d-flex flex-column">
+                  <a v-bind:href="link" target="_blank" v-if="link" class="btn btn-secondary btn-light" role="button" aria-disabled="true">Project Site</a>
+                  <button class="card-btn btn btn-light mt-auto" v-on:click="toggle_details">{{ show_details.display_text}}</button>
+
+              </div>
+              </div>
+              </div>
+            </div>
           </div>
       `
 })

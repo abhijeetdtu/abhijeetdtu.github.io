@@ -1,11 +1,11 @@
 
 var router2 = new VueRouter({
   routes : [
-    {path : "/timeline" , component : timelineComp , props: { events : events}},
+    {path : "/timeline" , component : timelineComp , props: { events : events.reverse()}},
     {path : "/projects" , component : timelineComp , props: { events : projects}},
     {path : "/jupyter" , component : jupyterComp , props: { notebooks : jupyter_notebooks}},
     {path : "/binder" , component : binderComp },
-    { path: '*', redirect: '/jupyter'}
+    { path: '*', redirect: '/projects'}
   ]
 })
 

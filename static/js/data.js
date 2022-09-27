@@ -155,8 +155,66 @@ var events = [{
       type: 'h7',
       group: 3
     },
-  ]
-}]
+  ]}, {
+    title: 'Data Scientist L3',
+    institute: 'Frontdoor Inc',
+    start: '2021/06',
+    end: '2022/09',
+    img: 'static/img/frontdoor.png',
+    highlights: [
+      {
+        text: 'Worked with multiple stakeholders across Operations, Marketing and Data Engineering to build scalable predictive solutions',
+        type: 'h7',
+        group: 1
+      },
+      {
+        text: 'Coverage Prediction',
+        type: 'h5',
+        group: 2
+      },
+      {
+        text: 'Using historical agent decisions for items and subscription plans, built a model to predict whether work order items should be covered by Frontdoor ',
+        type: 'h7',
+        group: 2
+      },{
+        text: 'Increased auto-approval rates by 5% pts allowing ~$60K worth of items per month to bypass agents',
+        type: 'h6',
+        group: 2
+      },{
+        text: 'Dashboards were also built for tracking model performance in production in detail along with using MLFlow for performance metrics',
+        type: 'h7',
+        group: 2
+      }
+      ,{
+        text: 'Renewal Prediction',
+        type: 'h5',
+        group: 2
+      },
+      {
+        text: 'Combined Experian Real-Estate data along with customer and product features to predict subscription renewals',
+        type: 'h7',
+        group: 2
+      },{
+        text: 'Model was used to target customers less likely to renew via outbound calls and emails and provided a lift in renewals for upper quantiles ',
+        type: 'h6',
+        group: 2
+      },{
+        text: 'X-Ray Project',
+        type: 'h5',
+        group: 2
+      },
+      {
+        text: 'Using PySpark and Dash built an app to allow users to get insight into the usage of various Views and Tables in Snowflake  ',
+        type: 'h7',
+        group: 2
+      },{
+        text: 'This allowed Data Engineering to better plan scaling of warehouses and allowed cleaning up of littered objects',
+        type: 'h6',
+        group: 2
+      }
+    ]
+    }
+]
 
 
 var projects = [{
