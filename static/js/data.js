@@ -218,6 +218,31 @@ var events = [{
 
 
 var projects = [{
+      title: 'Computer Vision on Edge: Drone Control using Gestures',
+      institute: 'Academic Project',
+      start: 'Jan 2021',
+      end: 'May 2021',
+      //https://user-images.githubusercontent.com/6872080/108295832-6c268a00-7166-11eb-9d49-31af59486bb4.gif
+      img: 'https://user-images.githubusercontent.com/6872080/192601556-5747b8a2-4532-4809-8409-6da4c1edd05e.png',
+      link: 'https://github.com/abhijeetdtu/drone_control_gesture',
+      highlights: [{
+        text: 'Controlling a Drone using Pose Estimation in Python and Tensorflow Lite',
+        type: 'h6',
+        group: 1
+      }, {
+        text: 'Built an embedded real-time human action detection and classification system which was deployed on a Nvidia Jetson Nano Microcomputer and subsequently used on a drone',
+        type: 'h7',
+        group: 2
+      }, {
+        text: 'Once we had our model ready, to interface with a drone we used dronekit-sitl (Software in the loop) for drone simulation and dronekit-python, for drone vehicle control. ',
+        type: 'h7',
+        group: 3
+      }, {
+        text: 'Keras / Python / NVIDIA Jetson Nano / GStreamer / dronekit',
+        type: 'h6',
+        group: 3
+      }]
+    }, {
     title: 'Predicting Economic Activity From Satellite Images',
     institute: 'Academic Project',
     start: 'Aug 2020',
