@@ -5,6 +5,7 @@ var router2 = new VueRouter({
     {path : "/projects" , component : timelineComp , props: { events : projects}},
     {path : "/jupyter" , component : jupyterComp , props: { notebooks : jupyter_notebooks}},
     {path : "/binder" , component : binderComp },
+    {path : "/mm" , component : milammundi },
     { path: '*', redirect: '/projects'}
   ]
 })
