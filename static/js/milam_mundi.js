@@ -13,10 +13,10 @@ var milammundi = Vue.component('milammundi', {
         <div class="col-md-12 col-sm-12">
           <div class="container">
             <div class="row border border-2 rounded-3 pt-1">
-                <div class="col-4">
+                <div class="col-md-4 col-sm-12 d-flex  justify-content-center">
                     <img class="img-fluid rounded img-logo"  src="https://github.com/abhijeetdtu/abhijeetdtu.github.io/assets/6872080/55b6eaec-2c1b-4146-8bde-3e7b38d3c6bf"></img>
                 </div>
-                <div class="col-8">
+                <div class="col-md-8 col-sm-12">
                     <div class="brand-story">
                         <div class="headings">
                             <h1 class="display-1">Discover</h1>
