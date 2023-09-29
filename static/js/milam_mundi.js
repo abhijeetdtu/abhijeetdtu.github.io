@@ -1,4 +1,4 @@
-var milamMundi = Vue.component('milammundi', {
+var milammundi = Vue.component('milammundi', {
     mixins: [mixin],
     props: ["events"],
     data: function() {
@@ -7,12 +7,28 @@ var milamMundi = Vue.component('milammundi', {
       }
     },
     template: `
+
+    
     <div class="row">
         <div class="col-md-12 col-sm-12">
           <div class="container">
             <div class="row">
-                <div class="col">
-                    <img class="img-fluid" scr="https://github.com/abhijeetdtu/abhijeetdtu.github.io/assets/6872080/fbc9c0b3-37e8-4de6-8ddf-41ac870e7add"></img>
+                <div class="col-4">
+                    <img class="img-fluid rounded img-logo"  src="https://github.com/abhijeetdtu/abhijeetdtu.github.io/assets/6872080/55b6eaec-2c1b-4146-8bde-3e7b38d3c6bf"></img>
+                </div>
+                <div class="col-8">
+                        <div class="card text-center">
+                        <div class="card-header">
+                            Historical Maps
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                        <div class="card-footer text-muted">
+                            2 days ago
+                        </div>
+                    </div>
                 </div>
             </div>
           </div>
