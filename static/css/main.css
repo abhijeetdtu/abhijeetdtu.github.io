@@ -115,3 +115,21 @@ body{
 .img-logo{
   background-color: #e9c46a;
 }
+
+.headings{
+  color:rgb(127,97,71)
+}
+
+.brand-story{
+
+}
+
+.brand-story .display-1{
+  font-family: 'Dancing Script' , serif;
+}
+
+.story-text{
+  font-size: large;
+  /* font-family: 'EB Garamond', serif; */
+  font-family: 'Georgia' , serif;
+}
